@@ -1,0 +1,17 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to recipe requests
+    steps:
+      - intent: request_recipe
+      - action: action_provide_recipe
+
+  - rule: Greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Handle thank you messages
+    steps:
+      - intent: thank_you
+      - action: utter_thank_you

@@ -1,0 +1,117 @@
+version: "3.1"
+
+nlu:
+  - intent: request_recipe
+    examples: |
+      - How do I make [pasta Alfredo](dish)?
+      - How do I make [Pasta Alfredo](dish)?
+      - Give me a recipe for [pastaAlfredo](dish).
+      - Give me a recipe for [Alfredo pasta](dish).
+      - Give me a recipe for [Alfredopasta](dish).
+      - Give me a recipe for [Alfredo](dish).
+      - Give me a recipe for [pasta](dish).
+      - What are the steps to cook [Vegetable Stir Fry](dish)?
+      - How do I make [vegetable Stir fry](dish)?
+      - What are the steps to cook [vegetable stir fry](dish)?
+      - How to cook [stirfryvegetables](dish)?
+      - How to cook [stir fry](dish)?
+      - How to cook [fry vegetables](dish)?
+      - I have [carrot](ingredient) and [bell pepper](ingredient), suggest a recipe.
+      - Can you provide a recipe using [garlic](ingredient) and [butter](ingredient)?
+      - Suggest a dish with [chicken](ingredient) and [mushrooms](ingredient).
+      - What can I cook with [rice](ingredient) and [tomatoes](ingredient)?
+      - Recommend a [vegan](diet) recipe.
+      - I need a [gluten-free](diet) recipe using [corn](ingredient).
+      - Tell me an easy [breakfast](meal_type) recipe.
+      - Suggest a quick [dinner](meal_type) idea.
+      - I want to make something spicy with [chili](ingredient).
+      - What’s a good dessert recipe with [chocolate](ingredient)?
+      - Give me a simple [Indian](cuisine) recipe.
+      - Any ideas for a [Mexican](cuisine) dish?
+      - I only have [potatoes](ingredient) and [cheese](ingredient). What can I make?
+      - I'm hungry, what can I cook with [eggs](ingredient)?
+      - What are some healthy recipes with [avocado](ingredient)?
+      - Find me a low-calorie meal with [spinach](ingredient).
+      - I need a high-protein recipe with [lentils](ingredient).
+      version: "3.1"
+
+      - How do I make [Pasta Alfredo](dish)?
+      - How do I make [pasta alfredo](dish)?
+      - Give me a recipe for [pastaAlfredo](dish).
+      - Give me a recipe for [Alfredo pasta](dish).
+      - Give me a recipe for [Alfredopasta](dish).
+      - Give me a recipe for [Alfredo](dish).
+      - Give me a recipe for [pasta](dish).
+
+      - What are the steps to cook [Vegetable Stir Fry](dish)?
+      - How do I make [vegetable Stir fry](dish)?
+      - What are the steps to cook [vegetable stir fry](dish)?
+      - How to cook [stirfryvegetables](dish)?
+      - How to cook [stir fry](dish)?
+      - How to cook [fry vegetables](dish)?
+
+      - How do I make [Chicken Curry](dish)?
+      - What are the steps for cooking [chicken curry](dish)?
+      - How to cook [chicken masala](dish)?
+      - How to make [curry chicken](dish)?
+      - Give me a recipe for [spicy chicken curry](dish).
+      - Show me a step-by-step guide for [Indian chicken curry](dish).
+
+      - How do I make [Mexican Tacos](dish)?
+      - Give me a recipe for [tacos](dish).
+      - What are the ingredients for [tacos](dish)?
+      - What is the recipe for [Mexican tacos](dish)?
+      - How do I make a [beef taco](dish)?
+      - How to cook [spicy tacos](dish)?
+
+      - How to cook [Spaghetti Carbonara](dish)?
+      - What’s the recipe for [carbonara](dish)?
+      - How do I prepare [pasta carbonara](dish)?
+      - What are the steps for making [spaghetti carbonara](dish)?
+      - Give me a recipe for [creamy carbonara](dish).
+
+      - What is the recipe for [Avocado Toast](dish)?
+      - How do I prepare [avocado on toast](dish)?
+      - Give me a recipe for [avocado bread](dish).
+      - What are the ingredients for [avocado toast](dish)?
+      - How do I make [healthy avocado toast](dish)?
+
+      - How do I make a [Smoothie Bowl](dish)?
+      - What is the recipe for [a fruit smoothie bowl](dish)?
+      - How do I prepare [yogurt smoothie bowl](dish)?
+      - How to cook [banana smoothie bowl](dish)?
+      - What are the steps for making [strawberry smoothie bowl](dish)?
+
+      - How do I make [Indian Butter Chicken](dish)?
+      - What is the recipe for [butter chicken](dish)?
+      - Give me a step-by-step guide for [creamy butter chicken](dish).
+      - How to prepare [spicy Indian butter chicken](dish)?
+      - What are the ingredients for [butter chicken curry](dish)?
+
+      - How do I cook [Paneer Tikka](dish)?
+      - What are the steps to prepare [grilled paneer](dish)?
+      - How do I make [Indian paneer tikka](dish)?
+      - Give me a recipe for [spicy paneer tikka](dish).
+      - How to cook [tandoori paneer](dish)?
+
+      - How do I bake [Chocolate Brownie](dish)?
+      - What is the recipe for [brownies](dish)?
+      - How do I make a [chocolate fudge brownie](dish)?
+      - What are the ingredients for [homemade brownies](dish)?
+      - Show me the steps for baking [chocolate cake brownies](dish).
+
+  - intent: greet
+    examples: |
+      - Hello!
+      - Hi there!
+      - Hey!
+      - Good morning!
+      - Good evening!
+
+  - intent: thank_you
+    examples: |
+      - Thanks!
+      - Thank you so much!
+      - Appreciate it!
+      - Thanks a lot!
+      - Thanks for your help!

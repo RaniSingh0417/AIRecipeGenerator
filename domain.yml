@@ -1,0 +1,61 @@
+
+version: "3.1"
+
+intents:
+  - request_recipe
+  - greet
+  - thank_you
+
+entities:
+  - dish
+  - ingredient
+  - diet
+  - meal_type
+  - cuisine
+
+slots:
+  dish:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: dish
+
+  ingredient:
+    type: list
+    mappings:
+      - type: from_entity
+        entity: ingredient
+
+  diet:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: diet
+
+  meal_type:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: meal_type
+
+  cuisine:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: cuisine
+
+actions:
+  - action_provide_recipe
+
+responses:
+  utter_ask_recipe:
+    - text: "Tell me the dish name or ingredients, and I'll suggest a recipe!"
+
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+
+  utter_thank_you:
+    - text: "You're welcome! Let me know if you need more recipes."
+
+  utter_recipe:
+    - text: "Here's a great recipe for {dish}: [Insert recipe here]"

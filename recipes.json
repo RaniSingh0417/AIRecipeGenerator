@@ -1,0 +1,129 @@
+[
+    {
+        "title": "PastaAlfredo",
+        "ingredients": ["pasta", "butter", "cream", "garlic", "parmesan cheese"],
+        "steps": [
+            "Boil the pasta until al dente.",
+            "Melt butter in a pan and sauté garlic.",
+            "Add cream and parmesan cheese, stirring until smooth.",
+            "Mix in the pasta and cook for 2 minutes.",
+            "Serve hot with additional cheese on top."
+        ]
+    },
+    {
+        "title": "Vegetable Stir Fry",
+        "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic", "ginger"],
+        "steps": [
+            "Heat oil in a wok.",
+            "Add garlic and ginger, sauté for a few seconds.",
+            "Add vegetables and stir-fry for 5 minutes.",
+            "Pour in soy sauce and cook for another 2 minutes.",
+            "Serve hot with rice or noodles."
+        ]
+    },
+    {
+      "title": "Pasta Alfredo",
+      "ingredients": ["pasta", "butter", "garlic", "cream", "parmesan cheese"],
+      "steps": [
+        "Boil the pasta until al dente.",
+        "Melt butter in a pan and sauté garlic.",
+        "Add cream and parmesan cheese, stirring until smooth.",
+        "Mix in the pasta and cook for 2 minutes.",
+        "Serve hot with additional cheese on top."
+      ]
+    },
+    {
+      "title": "Vegetable Stir Fry",
+      "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic"],
+      "steps": [
+        "Chop all the vegetables into bite-sized pieces.",
+        "Heat oil in a pan and add garlic.",
+        "Add the vegetables and stir-fry for 5 minutes.",
+        "Pour in soy sauce and cook for another 2 minutes.",
+        "Serve hot over rice or noodles."
+      ]
+    },
+    {
+      "title": "Chicken Curry",
+      "ingredients": ["chicken", "onion", "tomato", "garlic", "ginger", "spices"],
+      "steps": [
+        "Sauté onions, garlic, and ginger in a pan until golden brown.",
+        "Add chopped tomatoes and cook until soft.",
+        "Add chicken pieces and cook until browned.",
+        "Mix in the spices and simmer with water for 20 minutes.",
+        "Serve hot with rice or bread."
+      ]
+    },
+    {
+      "title": "Mexican Tacos",
+      "ingredients": ["tortilla", "ground beef", "lettuce", "tomato", "cheese"],
+      "steps": [
+        "Cook ground beef with spices until fully cooked.",
+        "Warm the tortillas on a pan.",
+        "Fill each tortilla with beef, lettuce, tomato, and cheese.",
+        "Fold and serve with salsa."
+      ]
+    },
+    {
+      "title": "Spaghetti Carbonara",
+      "ingredients": ["spaghetti", "egg", "parmesan cheese", "bacon", "black pepper"],
+      "steps": [
+        "Boil spaghetti until al dente.",
+        "Fry bacon until crispy.",
+        "Whisk eggs and parmesan cheese together.",
+        "Mix the hot spaghetti with egg mixture and bacon.",
+        "Season with black pepper and serve."
+      ]
+    },
+    {
+      "title": "Avocado Toast",
+      "ingredients": ["bread", "avocado", "lemon juice", "salt", "pepper"],
+      "steps": [
+        "Toast the bread slices.",
+        "Mash avocado with lemon juice, salt, and pepper.",
+        "Spread avocado mixture over the toast.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "title": "Smoothie Bowl",
+      "ingredients": ["banana", "strawberries", "yogurt", "honey", "granola"],
+      "steps": [
+        "Blend banana, strawberries, and yogurt until smooth.",
+        "Pour into a bowl and top with granola and honey.",
+        "Serve chilled."
+      ]
+    },
+    {
+      "title": "Indian Butter Chicken",
+      "ingredients": ["chicken", "butter", "tomato", "cream", "spices"],
+      "steps": [
+        "Marinate chicken in yogurt and spices.",
+        "Cook chicken in butter until golden brown.",
+        "Blend tomatoes into a puree and cook with cream.",
+        "Add the cooked chicken to the sauce and simmer for 10 minutes.",
+        "Serve with naan or rice."
+      ]
+    },
+    {
+      "title": "Paneer Tikka",
+      "ingredients": ["paneer", "yogurt", "spices", "lemon juice", "bell pepper"],
+      "steps": [
+        "Marinate paneer and bell peppers in yogurt, spices, and lemon juice.",
+        "Skewer and grill until charred.",
+        "Serve with mint chutney."
+      ]
+    },
+    {
+      "title": "Chocolate Brownie",
+      "ingredients": ["chocolate", "butter", "sugar", "flour", "eggs"],
+      "steps": [
+        "Melt chocolate and butter together.",
+        "Mix in sugar, flour, and eggs.",
+        "Pour batter into a baking dish.",
+        "Bake at 180°C for 25 minutes.",
+        "Let cool before serving."
+      ]
+    }
+  ]
+  
